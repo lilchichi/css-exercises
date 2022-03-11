@@ -1,2 +1,39 @@
-.head {
+* {
+  box-sizing: 100px;
+  margin: 0px;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  color: black;
+  background: rgb(202, 194, 194);
+}
+
+img {
+  max-width: 200px;
+}
+
+h1,
+h2 {
+  size: 10px;
+}
+
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30;
+}
+
+.navbar {
+  background: yellow;
+  color: blue;
+}
+
+.logo {
+  font-size: x-large;
+  font-weight: bold;
 }
